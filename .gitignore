@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# If using Postgres, MySQL, or other databases, ignore these files
+*.db
+*.sql
+*.sqlite3
+
+# Media & Static files (depending on your setup)
+media/
+staticfiles/
+static/
+
+# If using the Django secret key as an environment variable
+.env
+.env.* # For environment specific files like .env.production, .env.staging, etc.
+
+# If using pipenv, poetry, or other virtual environment tools
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Virtual environment directory (name may vary)
+venv/
+env/
+ENV/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# IDEs
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Editor specific files
+*.swp
+*.swo
+*~
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# JetBrains IDEs (PyCharm, WebStorm, etc.)
+.idea/
+
+# Node.js (if you're using npm/yarn for frontend assets)
+node_modules/
+yarn.lock
+package-lock.json
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.coverage.*
+
+# Testing results
+.junit.xml
+test-results.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
